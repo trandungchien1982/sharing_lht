@@ -1,2 +1,2 @@
 # sharing_lht
-Sharing Docker for Lien - Hieu - Thao
+Sharing Docker for Liên - Hiếu - Thảo
