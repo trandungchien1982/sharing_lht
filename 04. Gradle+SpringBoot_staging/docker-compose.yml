@@ -1,0 +1,21 @@
+version: '3'
+services:
+  gradle_spring_boot:
+    build: ./sample-gradle-project
+    image: gradle_spring_boot_custom_staging
+    volumes:
+      # Link Home Gradle folder (between localhost and container)
+      - './.gradle_staging:/home/gradle/.gradle'
+      # Source folder (using Gradle)
+      - './sample-gradle-project:/home/gradle/project'
+    ports:
+      - "8080:8080"
+    networks:
+      - common_network
+
+networks:
+    common_network:      
+
+
+# Create Spring Boot + Gradle, running in JDK8
+# The Gradle folder will be ./.gradle_staging (contains all downloaded JAR files)
