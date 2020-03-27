@@ -5,6 +5,6 @@ Hãy giải nén file .gradle_staging.zip trước khi chạy nhé.
 # The Gradle folder will be ./.gradle_staging (contains all downloaded JAR files)
 
 When finish starting, we can access into :
-	+ Staging : 	http://localhost:8080
-					http://localhost:8080/welcome
-					http://localhost:8080/dashboard
+	+ Staging : 	http://localhost:9000
+					http://localhost:9000/welcome
+					http://localhost:9000/dashboard
