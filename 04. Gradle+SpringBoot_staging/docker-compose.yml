@@ -9,7 +9,7 @@ services:
       # Source folder (using Gradle)
       - './sample-gradle-project:/home/gradle/project'
     ports:
-      - "8080:8080"
+      - "9000:8080"
     networks:
       - common_network
 
