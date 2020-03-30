@@ -1,0 +1,8 @@
+# Use root/mypassword as user/password credentials
+version: '3.1'
+
+services:
+
+  db_custom:
+    image: mysql_thaochau_5_7
+    build: ./abc
