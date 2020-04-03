@@ -1,0 +1,8 @@
+
+# Create MySQL Database Server 5.7.29 with login information :
+# User/Pass : root/root
+# Port : 3344
+# Database : chien_database, oauth2_authorization_db2, oauth2_authorization_db3
+# All data managed by MySQL will be inside ./mysql_data
+
+With empty folder ./mysql_data, the SQL inside scripts *.SQL will be loaded

@@ -1,0 +1,26 @@
+version: '3.1'
+services:
+  mysql_db:
+    image: mysql:5.7.29
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: chien_database
+    volumes:
+      - ./database_schema.sql:/docker-entrypoint-initdb.d/database_schema.sql
+      - ./database_schema_02.sql:/docker-entrypoint-initdb.d/database_schema_02.sql
+      - ./mysql_data:/var/lib/mysql
+    ports:
+      - "3344:3306"
+    networks:
+      - common_network
+networks:
+    common_network:
+      external: true
+
+
+# Create MySQL Database Server with login information :
+# User/Pass : root/root
+# Use the common_network with server name : mysql_db
