@@ -10,7 +10,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: mypassword
     ports:
-      - 80:3306
+      - 9007:3306
 
   db_tester:
     image: mysql
