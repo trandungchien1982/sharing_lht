@@ -9,8 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: chien_database
     volumes:
-      - ./database_schema.sql:/docker-entrypoint-initdb.d/database_schema.sql
-      - ./database_schema_02.sql:/docker-entrypoint-initdb.d/database_schema_02.sql
+      - ./db:/docker-entrypoint-initdb.d      
       - ./mysql_data:/var/lib/mysql
     ports:
       - "3344:3306"
