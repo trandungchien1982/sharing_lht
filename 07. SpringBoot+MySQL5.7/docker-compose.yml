@@ -23,8 +23,6 @@ services:
       - "9000:9222"
     depends_on:
       - mysql_db_jpa
-    networks:
-      - common_network
 
   mysql_db_jpa:
     image: mariadb:10.3
@@ -37,9 +35,3 @@ services:
       - ./mysql_db:/docker-entrypoint-initdb.d
     ports:
       - "3434:3306"
-    networks:
-      - common_network
-networks:
-    common_network:
-      external: true
-
