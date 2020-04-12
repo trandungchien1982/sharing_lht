@@ -1,11 +1,15 @@
 {
     "request": {
         "method": "GET",
-        "url": "/get-securities/v2"
+        "url": "/get-securities/v3"
     },
     "response": {
-        "status": 404,
-        "body": "Hello world! 2",
+        "status": 200,
+        "jsonBody" : {
+			"arbitrary_json": [1, 2, 3],
+			"key1" : "Value 01",
+			"key2" : "Value 02"
+		},
         "headers": {
             "Content-Type": "text/plain",
 			"Set-Cookie": ["session_id=91837492837", "split_test_group=B"],
