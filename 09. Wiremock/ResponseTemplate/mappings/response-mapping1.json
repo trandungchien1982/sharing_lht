@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "urlPathPattern" : "/response-mapping1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+	"headers": {
+        "Content-Type": "text/html"
+    },
+    "bodyFileName" : "templates/response-template1.txt"
+  }
+}
