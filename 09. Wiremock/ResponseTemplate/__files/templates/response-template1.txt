@@ -1,0 +1,23 @@
+<htm>
+<head><meta charset="utf-8" />
+<body>
+	<h1>Mùa hè bên đường</h1>
+	
+	Tháng tư hạ chớm về rồi<br/>
+	Lắng nghe trong lá bồi hồi tiếng ve<br/>
+	Em về tập vở nghiêng che<br/>
+	Ta theo bước nhỏ lòng nghe thoáng buồn<br/>
+	Hạ ơi đừng khép cổng trường<br/>
+	Ve ơi đừng hát lòng đường bâng khuâng<br/>
+	Ngày mai trên vạn nẻo đường<br/>
+	Còn đâu tiếng trống tựu trường nôn nao<br/>
+	Còn đâu tiếng guốc xôn xao<br/>
+	Còn đâu ánh mắt người trao cho người<br/>
+	Còn đâu nữa những nụ cười?<br/>
+	Chỉ còn sót lại một thời nhớ thương<br/>
+	Tháng tư mùa hạ lên đường<br/>
+	Nắng vương vương nắng, buồn vương vương buồn.<br/>
+	<br/>
+	(Sưu tầm)<br/>
+</body>
+</html>
