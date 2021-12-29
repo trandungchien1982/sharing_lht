@@ -1,0 +1,14 @@
+
+Tìm hiểu về Reactive Core trong Java và các khái niệm liên quan
+	https://www.baeldung.com/reactor-core
+
+
+Các khái niệm cần nắm:
+	- Non-blocking programming
+	- Reactive Streams Specification
+	- Asynchronous stream processing
+	- Flux, Mono
+	- BackPressure
+	- Compare with Java 8 Stream API
+	
+Tiến hành chạy các hàm main() trong các files để check Console Logs.
