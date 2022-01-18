@@ -1,7 +1,0 @@
-version: '3'
-services:
-  wiremock_demo:
-    build: .
-    image: wiremock_demo_image
-    ports:
-      - "9000:9999"

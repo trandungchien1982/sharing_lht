@@ -1,3 +1,0 @@
-Hai câu hỏi cần giải quyết :
-	- Data Warehouse vs Database.
-	- Khi add 1 column mới trên 1 Big Table thì nên làm thế nào.
